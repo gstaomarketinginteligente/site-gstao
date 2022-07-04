@@ -1,0 +1,39 @@
+@media (max-width: 1080px) {
+  .arrow-right {
+    width: 1px;
+  }
+
+  .arrow-right div {
+    width: 30px;
+    height: 3px;
+    margin: 15px;
+    border: 0.1px solid;
+    border-radius: 2em;
+    background: black;
+  }
+
+  .arrow-right div:nth-child(1) {
+    transform: rotate(40deg);
+  }
+
+  .arrow-right div:nth-child(2) {
+    transform: rotate(-40deg);
+  }
+
+  .arrow-left div {
+    width: 30px;
+    height: 3px;
+    margin: 15px;
+    border: 0.1px solid;
+    border-radius: 2em;
+    background: black;
+  }
+
+  .arrow-left div:nth-child(1) {
+    transform: rotate(-40deg);
+  }
+
+  .arrow-left div:nth-child(2) {
+    transform: rotate(40deg);
+  }
+}

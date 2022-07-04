@@ -1,0 +1,101 @@
+:root {
+  --laranja: #fca628;
+  --vermelho: #f44a22;
+}
+
+:-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--laranja);
+  border-radius: 13px;
+  box-shadow: inset 0px 2px 2px 2px #00000033;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f15b39;
+}
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.7vw;
+}
+
+body {
+  height: 100vh;
+  padding: 0 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+}
+
+h3, h2, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 3.4rem;
+}
+
+p {
+  font-size: 2.4rem;
+}
+
+span {
+  color: var(--laranja);
+}
+
+.header-card {
+  padding: 2rem;
+  text-align: center;
+  background-color: #313131;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  color: white;
+}
+
+.footer-card img {
+  position: absolute;
+  width: 2rem;
+  right: 1rem;
+  bottom: 1rem;
+  transition: 0.2s;
+}
+
+.footer-card img:hover {
+  filter: brightness(0);
+}
+
+.footer-card {
+  padding: 2rem;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    font-size: min(2vw, 8px);
+  }
+}
