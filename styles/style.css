@@ -1059,7 +1059,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1.15rem;
 }
 
 .div-contato p {
@@ -1086,6 +1086,17 @@ footer p {
 .social-icon:hover {
   cursor: pointer;
   color: var(--vermelho);
+}
+
+.footer-logo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.footer-logo-div img {
+  width: 18rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 1850px) {
