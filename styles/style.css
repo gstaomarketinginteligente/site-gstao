@@ -7,14 +7,17 @@
   width: 8px;
   height: 12px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--laranja);
   border-radius: 13px;
   box-shadow: inset 0px 2px 2px 2px #00000033;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #f15b39;
 }
+
 ::-webkit-scrollbar-track {
   background: #1f1f1f;
 }
@@ -204,6 +207,7 @@ nav {
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(5px);
   }
@@ -236,8 +240,7 @@ nav {
 }
 
 .main {
-  background: url("/assets/img/imagens/imagem\ fundo\ 1.jpg") no-repeat center
-    center;
+  background: url("/assets/img/imagens/imagem\ fundo\ 1.jpg") no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   align-items: center;
@@ -300,12 +303,10 @@ nav {
 }
 
 .fade {
-  background: linear-gradient(
-    0deg,
-    #000000 0%,
-    rgba(255, 255, 255, 0) 50%,
-    rgba(255, 255, 255, 0) 50%
-  );
+  background: linear-gradient(0deg,
+      #000000 0%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 50%);
   opacity: 0.8;
   padding: 50vh 50vw;
   position: absolute;
@@ -359,12 +360,10 @@ nav {
 }
 
 .fade-1 {
-  background: linear-gradient(
-    0deg,
-    #00000054 0%,
-    rgba(255, 255, 255, 0) 15%,
-    rgba(255, 255, 255, 0) 85%
-  );
+  background: linear-gradient(0deg,
+      #00000054 0%,
+      rgba(255, 255, 255, 0) 15%,
+      rgba(255, 255, 255, 0) 85%);
 }
 
 .mao {
@@ -391,6 +390,7 @@ nav {
   position: absolute;
   z-index: 2;
 }
+
 .sec-2 p {
   line-height: 1.2em;
   max-width: 50%;
@@ -424,6 +424,7 @@ nav {
   from {
     transform: translateY(0) scale(1.3);
   }
+
   to {
     transform: translateY(20px) scale(1.3);
   }
@@ -574,11 +575,9 @@ nav {
   max-width: clamp(50px, 8vw, 80px);
   padding: 1em;
   border-radius: 10px;
-  background: linear-gradient(
-    25deg,
-    rgba(255, 255, 255, 0.08) 0%,
-    rgba(255, 145, 0, 0) 35%
-  );
+  background: linear-gradient(25deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 145, 0, 0) 35%);
 }
 
 .card h2 {
@@ -692,8 +691,7 @@ nav {
 /* SECTION BGROUP */
 
 .sec-6 {
-  background: url("/assets/img/imagens/Mockup\ BGgroup.jpg") no-repeat center
-    center;
+  background: url("/assets/img/imagens/Mockup\ BGgroup.jpg") no-repeat center center;
   background-size: cover;
   background-position-x: 60%;
   min-height: 65vh;
@@ -757,7 +755,7 @@ nav {
   scroll-behavior: smooth;
 }
 
-.sec-6-logos > img {
+.sec-6-logos>img {
   scroll-snap-align: center;
 }
 
@@ -850,6 +848,8 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  column-gap: 5rem;
+  row-gap: 1rem;
 }
 
 .selos img {
@@ -930,6 +930,7 @@ form input {
   from {
     background-color: #f44a22;
   }
+
   to {
     background-color: var(--laranja);
   }
@@ -1013,13 +1014,10 @@ input:focus {
 
 .sec-8-fade {
   position: absolute;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       #000000 0%,
       rgba(255, 255, 255, 0) 10%,
-      #000000
-    )
-    local;
+      #000000) local;
   bottom: 0;
   opacity: 0.9;
   padding: 100vh 50vw;
@@ -1091,7 +1089,7 @@ footer p {
 .footer-logo-div {
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
 }
 
 .footer-logo-div img {
@@ -1208,12 +1206,10 @@ footer p {
   }
 
   .fade {
-    background: linear-gradient(
-      0deg,
-      #000000 0%,
-      rgba(255, 255, 255, 0) 100%,
-      rgba(255, 255, 255, 0) 0%
-    );
+    background: linear-gradient(0deg,
+        #000000 0%,
+        rgba(255, 255, 255, 0) 100%,
+        rgba(255, 255, 255, 0) 0%);
   }
 
   .main-contents {
@@ -1327,10 +1323,12 @@ footer p {
     from {
       transform: translatey(0px) scale(0.4);
     }
+
     to {
       transform: translatey(10px) scale(0.4);
     }
   }
+
   .sec-3 {
     min-height: 550px;
     max-height: 1080px;
@@ -1562,6 +1560,7 @@ footer p {
       transform: scale(1.04);
       opacity: 1;
     }
+
     to {
       transform: scale(1);
       opacity: 0.6;
@@ -1705,6 +1704,7 @@ footer p {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -1716,6 +1716,7 @@ footer p {
     transform: translateX(0px);
     opacity: 1;
   }
+
   to {
     transform: translateX(-200px);
     opacity: 0;
@@ -1725,9 +1726,11 @@ footer p {
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
 }
+
 .mobile-menu.active .line2 {
   opacity: 0;
 }
+
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
